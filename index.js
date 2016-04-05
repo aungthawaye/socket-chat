@@ -1,5 +1,3 @@
-const chatserver    = require ('./lib/chatserver');
+const chat_server    = require ('./lib/chatserver');
 
-console.log("starting chatserver ...");
-
-chatserver.startChatServer();
+chat_server.startChatServer();

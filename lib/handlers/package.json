@@ -1,0 +1,6 @@
+{
+  "name": "handlers",
+  "version": "0.0.1",
+  "main" : "handlers.js",
+  "description": "event handlers"
+}
