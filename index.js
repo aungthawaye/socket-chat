@@ -1,3 +1,6 @@
 const chat_server    = require ('./lib/chatserver');
 
-chat_server.startChatServer();
+/*
+  Starting the chat server.
+*/
+chat_server.start();
