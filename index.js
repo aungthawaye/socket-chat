@@ -1,4 +1,4 @@
-const chat_server    = require ('./lib/chatserver');
+const chat_server = require('./lib/chatserver');
 
 /*
   Starting the chat server.

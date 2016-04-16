@@ -1,10 +1,12 @@
 {
   "name": "socket-chat",
   "version": "0.0.1",
-  "main" : "/lib/chatserver.js",
+  "main": "/lib/chatserver.js",
   "description": "chat application server using socket.io",
   "dependencies": {
     "express": "^4.10.2",
-    "socket.io": "^1.4.5"
+    "socket.io": "^1.4.5",
+    "socket.io-redis": "^1.0.0",
+    "winston": "^2.2.0"
   }
 }
