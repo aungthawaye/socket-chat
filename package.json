@@ -4,6 +4,7 @@
   "main": "/lib/chatserver.js",
   "description": "chat application server using socket.io",
   "dependencies": {
+    "aerospike": "^1.0.57",
     "express": "^4.10.2",
     "socket.io": "^1.4.5",
     "socket.io-redis": "^1.0.0",
