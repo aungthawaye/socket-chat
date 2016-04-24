@@ -54,15 +54,15 @@
     <script>
         var socket = io();
         // Register yourself
-        var user_id = "mysampleuserid";
+        var userId = "mysampleuserid";
 
         socket.emit("fc_subscribe", {
-            'user_id': user_id,
-            'status': "A"
+            'userId': userId,
+            'status': "O"
         });
 
         socket.on("message", function(data) {
-            alert(data);
+            alert(data + " has joined..");
         })
     </script>
 </head>
